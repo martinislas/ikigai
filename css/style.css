@@ -16,23 +16,53 @@
 .clear {
 	clear: both;
 }
-h6 {
-     margin: 0;
-}
+
 /******************************************
 /* main
 /******************************************/
 main{
+     display: grid;
+     align-items: center;
+     justify-content: center;
      width: 100%;
+     background-color: #cee5f2;
 }
 form{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
      width: 100%;
+    
+     text-align: center;
 }
-label{
-     display: block;
-     width: 40%;
+.what{
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     flex-direction: column;
+     padding:2rem;
+     background-color: #accbe1;
+     margin: 0;
 }
-input{
-     display: block;
-     width: 30%;
+.number{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     background-color: #accbe1;
+     margin: 0;
+     
+}
+div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: .5rem;
+}
+button{
+     width: 20%;
+     justify-self: center;
+}
+h1, h2{
+     text-align: center;
 }
