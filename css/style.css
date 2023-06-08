@@ -21,34 +21,18 @@ h6 {
 }
 /******************************************
 /* main
-/*******************************************/
-body{
-     padding: 2rem;
+/******************************************/
+main{
+     width: 100%;
 }
-form {
-     display: flex;
+form{
+     width: 100%;
 }
-
-div {
-     width: 15%;
-     display: flex;
-     flex-direction: column;
-     padding: .5rem;
-}
-.what{
+label{
+     display: block;
      width: 40%;
 }
-label {
-     height: 7.5rem;
-     text-align: center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
-input {
-     margin-bottom: .5rem;
-}
-.button{
-     display: flex;
-     justify-content: center;
+input{
+     display: block;
+     width: 30%;
 }

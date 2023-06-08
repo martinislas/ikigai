@@ -3,18 +3,18 @@
 
 
 
-function calculate() {
-    // Get the values of the input fields
-    const forms = document.querySelectorAll("form");
-    for (const form of forms) {
-      for (let i = 0; i < 3; i++) {
-        const happiness = document.querySelector(`input[id="happiness"]`, form).value;
-        console.log(happiness);
-      }
-    }
-  }
-  
-  document.querySelector("button").addEventListener('click', calculate);
+//function calculate() {
+//    // Get the values of the input fields
+//    const forms = document.querySelectorAll("form");
+//    for (const form of forms) {
+//      for (let i = 0; i < 3; i++) {
+//        const happiness = document.querySelector(`input[id="happiness"]`, form).value;
+//        console.log(happiness);
+//      }
+//    }
+//  }
+//  
+//  document.querySelector("button").addEventListener('click', calculate);
   
 //function calculate() {
     // Get the values of the input fields
