@@ -1,12 +1,31 @@
 // Attach an event listener to the submit button
 // This function will be called when the user clicks the submit button
+
+
+
 function calculate() {
     // Get the values of the input fields
-    const happy1 = document.querySelector("input[id=happiness1]").value;
-    console.log(happy1);
+    const forms = document.querySelectorAll("form");
+    for (const form of forms) {
+      for (let i = 0; i < 3; i++) {
+        const happiness = document.querySelector(`input[id="happiness"]`, form).value;
+        console.log(happiness);
+      }
+    }
   }
   
   document.querySelector("button").addEventListener('click', calculate);
+  
+//function calculate() {
+    // Get the values of the input fields
+//    const happiness = document.querySelector("input[id=happiness]").value;
+//    console.log(happiness);
+   
+  
+    
+//}
+  
+//  document.querySelector("button").addEventListener('click', calculate);
   
 
 
