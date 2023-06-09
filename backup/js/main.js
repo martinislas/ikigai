@@ -1,18 +1,13 @@
-// get the title element
-var title = document.querySelector('#what');
-
-// get the text element
-var text = document.querySelector('.text');
-
-// add a click event listener to the title element
-title.addEventListener('click', function() {
-  // toggle the display of the text element
-  text.classList.toggle('.text');
-});
+//const h2 = document.querySelector('.first');
+//const article = document.querySelector('#whatIsIkigai');
+//
+//h2.addEventListener('click', () => {
+//  article.style.display = 'block'; /* show article when h2 is clicked */
+//});
 
 
 
-
+// Attach an event listener to the submit button
 // This function will be called when the user clicks the submit button
 
 
