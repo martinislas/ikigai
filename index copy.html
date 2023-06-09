@@ -20,51 +20,43 @@
 	</head>
 	<body>
 		<header>
-			<h1>Find Your Ikigai</h1>
+			<h1>Find your IKIGAI</h1>
 		</header>
-			<div class="container">
-
-				<input type="checkbox" name="toggle" id="toggle"/>
-				<label for="toggle"><h2>What is Ikigai?</h1></label>
-				
-				
-				<div class="message">
-					<p>Ikigai (生き甲斐, pronounced “ee-kee-guy”) is a Japanese concept that means “a reason for being.” It is a way of finding your purpose in life and living a fulfilling existence. </br>
+		<article>
+			<section class="title" >		
+				<h2 id="what">What is Ikigai?</h2>
+				<section class="text">
+				<p>
+					Ikigai (生き甲斐, pronounced “ee-kee-guy”) is a Japanese concept that means “a reason for being.” It is a way of finding your purpose in life and living a fulfilling existence. </br>
 					The word ikigai is made up of two Japanese words: iki, which means “life,” and kai, which means “value” or “worth.”</br>
-					
-					Ikigai is often depicted as a diagram with four quadrants:</p>
-					<img src="images/IKIGAI-Template-EN.png" alt="ikigai diagram">	
+				
+					Ikigai is often depicted as a diagram with four quadrants:
+				</p>
 
-					<p>
+				<img src="images/5451950.jpg" alt="ikigai diagram">	
+
+				<p>
 					The intersection of these four quadrants is your ikigai. When you are doing something that is aligned with your ikigai, you are more likely to be happy, motivated, and productive. </br>
 				
 					There are many ways to find your ikigai. One way is to think about what you are passionate about and what you are good at. What are the things that make you come alive? What are the things that you could do for free? Once you have a good idea of your passions and talents, you can start to think about how you can use them to help others. What are the problems in the world that you care about? How can you use your skills and talents to make a difference? </br>
 				
 					Finding your ikigai is not always easy, but it is worth the effort. When you live a life that is aligned with your ikigai, you are more likely to experience a sense of purpose, satisfaction, and joy. </br>
-					</p>
-					
-				</div>
-			
-			
-			</div>
-
-<!------------------------------------------------------------------------------------------------------------------------------------------>
-
-			<div class="containerTwo">
-
-				<input type="checkbox" name="toggleTwo" id="toggleTwo"/>
-				<label for="toggleTwo"><h2>How to Find it?</h1></label>
-				
-				
-				<div class="messageTwo">
-					<h4>Here are some tips for finding your ikigai:</h4> 
+				</p>
+				</section>
+			</section>
+		</article>
+		<article>
+			<section class="title two">
+				<h2>How can to find your Ikigai?</h2>
+				<section class="text">
+					<h3>Here are some tips for finding your ikigai:</h3> 
 				
 					<p>Take some time for self-reflection. What are you passionate about? What are you good at? What do you find meaningful?</br>
 					Talk to people who know you well. Ask them for their insights into your strengths, weaknesses, and interests.</br>
 					Experiment with different activities and see what you enjoy. Don't be afraid to try new things.</br>
 					Be patient. Finding your ikigai may take time and effort. But it is worth the journey.</p>
 				
-					<h4>Here are some examples of ikigai:</h4>
+					<h3>Here are some examples of ikigai:</h3>
 				
 					<ul>
 						<li>A teacher who loves to learn and share knowledge.</li>
@@ -73,51 +65,46 @@
 						<li>A business owner who is good at solving problems and creating newproducts.</li>
 					</ul>	
 					<p>Ikigai is a lifelong journey. As you grow and change, so too will your ikigai. The important thing is to keep exploring and discovering what gives your life meaning.</p>
-					
+				</section>
+			</section>
+		</article>	
+		<main>
+			<h2>Ikigai Identifier</h2>
+		
+			<form action="" method="post" class="question">
+				<div class="what">
+				  <label >What?</label>
+				  <input id="activity" type="text" name="comment" placeholder="Ex: Teaching English" />
+					</br>
+				  <p>Answer the following questions with a number from 1 to 10.</p>
 				</div>
-			
-			</div>
-<!------------------------------------------------------------------------------------------------------------------------------------------>
-
-			<main>
-			
-				<h2>Ikigai Identifier</h2>
+				<div class="number">
+					<div>
+					  <label for="happiness">Does this make me happy?</label>
+					  <input type="number" name="happiness" required min="1" max="10">
+					</div>
+					<div>
+					  <label for="capacity">Am I good at this?</label>
+					  <input type="number"  name="capacity" required min="1" max="10">
+					</div>
+					<div> 
+					  <label for="pay">Can I get paid for this?</label>
+					  <input type="number" name="pay" required min="1" max="10">
+					</div>
+					<div> 
+					  <label for="world">Does the world need this?</label>
+					  <input type="number" id="world1" name="world" required min="1" max="10">
+					</div>
+				</div>
+				<section></section>
+			</form>
 				
-				
-					<form action="" method="post" class="question">
-						<div class="what">
-						  <label >What?</label>
-						  <input id="activity" type="text" name="comment" placeholder="Ex: Teaching English" />
-							</br>
-						  <p>Answer the following questions with a number from 1 to 10.</p>
-						</div>
-						<div class="number">
-							<div>
-							  <label for="happiness">Does this make me happy?</label>
-							  <input type="number" name="happiness" required min="1" max="10">
-							</div>
-							<div>
-							  <label for="capacity">Am I good<br/> at this?</label>
-							  <input type="number"  name="capacity" required min="1" max="10">
-							</div>
-							<div> 
-							  <label for="pay">Can I get paid for this?</label>
-							  <input type="number" name="pay" required min="1" max="10">
-							</div>
-							<div> 
-							  <label for="world">Does the world need this?</label>
-							  <input type="number" id="world1" name="world" required min="1" max="10">
-							</div>
-						</div>
-						
-					</form>
 					<p id="suggestions"></p>
 					<button>Submit</button>	
-			
-			</main>
-
-		
-		
+		</main>	
+		<footer>
+			<p>Martin Islas &copy; 2023</p>
+		</footer>
 		
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
