@@ -94,31 +94,35 @@
 						<div class="number">
 							<div>
 							  <label for="happiness">Does this make me happy?</label>
-							  <input type="number" name="happiness" required min="1" max="10">
+							  <input id="happiness" type="number" name="happiness" required min="1" max="10">
 							</div>
 							<div>
 							  <label for="capacity">Am I good<br/> at this?</label>
-							  <input type="number"  name="capacity" required min="1" max="10">
+							  <input id="capacity" type="number"  name="capacity" required min="1" max="10">
 							</div>
 							<div> 
 							  <label for="pay">Can I get paid for this?</label>
-							  <input type="number" name="pay" required min="1" max="10">
+							  <input id="pay" type="number" name="pay" required min="1" max="10">
 							</div>
 							<div> 
 							  <label for="world">Does the world need this?</label>
-							  <input type="number" id="world1" name="world" required min="1" max="10">
+							  <input id="world" type="number" id="world" name="world" required min="1" max="10">
 							</div>
 						</div>
 						
 					</form>
 					<p id="suggestions"></p>
-					<button>Submit</button>	
+					<p id="result"></p>	
+
+					<button id="submit" type="button">Submit</button>
 			
 			</main>
-
+			<footer>
+				<p>Martin Islas &copy; 2023</p>
+			
+			</footer>		
 		
-		
-		
-		<script type="text/javascript" src="js/main.js"></script>
 	</body>
+	
+	<script type="text/javascript" src="js/main.js"></script>
 </html>
